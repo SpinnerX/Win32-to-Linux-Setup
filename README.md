@@ -23,6 +23,16 @@ Install JaXCor
 
 - Once installed go ahead and choose the theme and toggle to enable them.
 
+## Installing Winfetch
+
+- This is window's equivalent to neofetch just for windows...
+
+- To find the config file will be located at this default file location `$env:USERPROFILE/.config/winfetch/config.ps1`
+
+- Just do `cd $env:USERPROFILE/.config/winfetch/config.ps1` and it'll take you to the file
+
+- Then change the `$image` variable to the location of the image file that contains the image file.
+
 ## Links
 Link to devianart for website art - https://www.deviantart.com
 
