@@ -61,6 +61,15 @@ Install JaXCor
 
 - Then change the `$image` variable to the location of the image file that contains the image file.
 
+## Removing titlebar in Windows 11
+
+- Install ing autohotkey 1.1
+- Link is `https://www.autohotkey.com/`
+
+- Then once you install the link double-click the script `script/no-titlebar.ahk`
+
+- Which should have a small window popup and disappear and thats it!
+
 ## Links
 Link to devianart for website art - https://www.deviantart.com
 
