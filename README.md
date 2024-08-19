@@ -3,6 +3,10 @@ Configurations for a Linux-like experience on Windows
 
  ## Installation
 
+- For configurations purpose make sure to have your directory called `My-Desktop-Configurations` in the C drive.
+
+- So the filepath to that directory should look like `C:\My-Desktop-Configurations\neofetch-logos` or whatever directory you want to access here.
+
 First install TaskbarXI
 
 - Go to the binaries and install `TaskbarXI.exe` and `TaskbarXGUI.exe`
