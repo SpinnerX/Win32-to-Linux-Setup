@@ -43,3 +43,20 @@ Link to wallpapercave for more art for wallpapers - https://wallpapercave.com
 `Alt+Tab` is for changing different window page tabs.
 
 `Alt+F4` is for closing current(single) page.
+
+
+## If $PROFILE is empty copy this below
+
+- Setting terminal configurations to these default configuration lines. (that get ran at the start of each terminal session)
+
+- Wer are setting the `oh-my-posh` theme to tokyo night storm theme.
+
+- We are setting winfetch to the alias name of `neofetch` to match unix-compliant naming conventions for my sanity (LOL)
+
+```powershell
+
+$env:POSH_THEMES_PATH/jandedobbeleer.omp.json
+
+Set-Alias -Name neofetch -Value winfetch
+
+```
