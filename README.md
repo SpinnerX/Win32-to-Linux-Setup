@@ -17,4 +17,19 @@ Second installing Rainmeter and Droptop four
 
 - To install droptop four go to this website here https://droptopfour.com/
 
-- 
+Install JaXCor
+
+- Then install `ModularVisualizer` and `ModularClocks`
+
+- Once installed go ahead and choose the theme and toggle to enable them.
+
+## Links
+Link to devianart for website art - https://www.deviantart.com
+
+Link to wallpapercave for more art for wallpapers - https://wallpapercave.com
+
+## Windows Key Shortcuts (Keybindings)
+
+`Alt+Tab` is for changing different window page tabs.
+
+`Alt+F4` is for closing current(single) page.
