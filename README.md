@@ -3,6 +3,30 @@ Configurations for a Linux-like experience on Windows
 
  ## Installation
 
+ ## For installing oh-my-posh
+
+ - The themes directory is `C:\Program Files (x86)\oh-my-posh\themes`
+
+ - How you reference to your themes in the windows powershell profile is by referencing to `$env:POSH_THEMES_PATH`
+
+ - In that configuration file to configure oh-my-posh
+   
+ - This is how you configure a specific theme: `oh-my-posh init pwsh --config $env:POSH_THEMES_PATH/capr4n.omp.json | Invoke-Expression`
+
+## New themes that DO NOT COME WITH OH-MY-POSH DEFAULT THEMES
+
+- Link where I found the nord themes, `https://github.com/AntonRyadovoy/pwsh_profile`
+
+- Nord themes
+   * These are nord-related themes available
+     
+   * `nordcustom_v`
+     
+   * `nordcustom`
+     
+   * `nordcustom_v.3`
+
+## Configurating Desktop Layout, Widgets, Applets
 - For configurations purpose make sure to have your directory called `My-Desktop-Configurations` in the C drive.
 
 - So the filepath to that directory should look like `C:\My-Desktop-Configurations\neofetch-logos` or whatever directory you want to access here.
@@ -59,7 +83,11 @@ Link to wallpapercave for more art for wallpapers - https://wallpapercave.com
 
 ```powershell
 
-$env:POSH_THEMES_PATH/jandedobbeleer.omp.json
+# Just an example
+# $env:POSH_THEMES_PATH/jandedobbeleer.omp.json
+
+# Do this one
+oh-my-posh init pwsh --config $env:POSH_THEMES_PATH/capr4n.omp.json | Invoke-Expression
 
 Set-Alias -Name neofetch -Value winfetch
 
