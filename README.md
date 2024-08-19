@@ -3,6 +3,17 @@ Configurations for a Linux-like experience on Windows
 
  ## Installation
 
+ ## Powershell no titlebar
+
+ - To get rid of the powershell titlebar simply go to settings and appearence and them toggle off title bar to hide it.
+
+ - Here are the keybindings to open up a new terminal session.
+ - Ctrl+Shift 1 -> Windows Powershell
+ - Ctrl+Shift 2 -> Command Prompt
+ - Ctrl+Shift 6 -> Powershell (in Profile 1 session)
+ - Ctrl+Shift 7 -> Powershell (in Profile 1 admin mode session)
+ - Ctrl+, -> to go into settings (literally type `ctrl` key and the `,` comma key)
+
  ## For installing oh-my-posh
 
  - The themes directory is `C:\Program Files (x86)\oh-my-posh\themes`
