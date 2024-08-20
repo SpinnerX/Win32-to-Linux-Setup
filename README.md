@@ -14,6 +14,18 @@ Configurations for a Linux-like experience on Windows
  - Ctrl+Shift 7 -> Powershell (in Profile 1 admin mode session)
  - Ctrl+, -> to go into settings (literally type `ctrl` key and the `,` comma key)
 
+## Making windows Transparent
+
+- This is to make file explorer and discord transparent.
+
+- To make file explorer transparent go to this website and install `System Transparency`
+- Link: https://www.vinstartheme.com/system-transparency/
+
+- To make Discord transparent, first install BetterDiscordInstaller
+- Link: https://betterdiscord.app/
+
+- 
+
  ## For installing oh-my-posh
 
  - The themes directory is `C:\Program Files (x86)\oh-my-posh\themes`
