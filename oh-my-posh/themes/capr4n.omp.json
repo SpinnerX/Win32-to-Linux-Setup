@@ -34,7 +34,7 @@
             "display_host": false
           },
           "style": "diamond",
-          "template": "{{if .Root}} \uf0e7 mrparmesan {{else}} {{.UserName}} {{end}}",
+          "template": "\uf0e7 mrparmesan ",
           "trailing_diamond": "\ue0b0",
           "type": "session"
         },
@@ -46,10 +46,11 @@
             "folder_icon": "\uf115",
             "folder_separator_icon": " \ue0b1 ",
             "max_depth": 2,
-            "style": "agnoster_short"
+            "style": "agnoster_short",
+            "full_path": false
           },
           "style": "powerline",
-          "template": " {{ .Path }} ",
+          "template": " {{ .Path | replace \"heraa\" \"mrparmesan\" }} ",
           "type": "path"
         },
         {
@@ -64,7 +65,7 @@
       "type": "prompt"
     }
   ],
-  "console_title_template": "{{if .Root}} \u26a1 {{end}}{{.UserName}} \u2794 📁{{.Folder}}",
+  "console_title_template": "{{if .Root}} \u26a1 {{else}}{{.UserName}} \u2794 📁{{.Folder}}",
   "final_space": true,
   "version": 2
 }
